@@ -1,0 +1,37 @@
+"Games"
+{
+	"cstrike"
+	{
+		"Signatures"
+		{
+			"CGamePlayerEquip::KeyValue"
+			{
+				"library"	"server"
+				"windows"	"\x81\xEC\x84\x00\x00\x00\x53\x8B\x9C\x24\x90\x00\x00\x00\x55\x8B\xAC\x24\x90\x00\x00\x00\x56\x57\x53\x55\x8B\xF9\xE8\x2A\x2A\x2A\x2A\x84\xC0\x75\x1B\x33\xF6\x8D\x87\x58\x03\x00\x00"
+				"linux"		"@_ZN16CGamePlayerEquip8KeyValueEPKcS1_"
+			}
+		}
+
+		"Functions"
+		{
+			"CGamePlayerEquip::KeyValue"
+			{
+				"signature"	"CGamePlayerEquip::KeyValue"
+				"callconv"	"thiscall"
+				"this"		"ignore"
+				"return"	"bool"
+				"arguments"
+				{
+					"szKeyName"
+					{
+						"type"	"charptr"
+					}
+					"szValue"
+					{
+						"type"	"charptr"
+					}
+				}
+			}
+		}
+	}
+}
